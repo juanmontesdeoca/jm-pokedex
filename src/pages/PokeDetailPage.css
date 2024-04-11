@@ -1,0 +1,87 @@
+.div{
+    .header {
+        width: 100%;
+        height: 10vh; 
+        background-color: #333; 
+        color: white; 
+        text-align: center; 
+        padding: 20px 0; 
+      }
+      
+    background: linear-gradient(178.92deg, #7EC6C5 0.92%, #ABDAC6 47.96%, #CAE099 99.08%);
+           
+}
+.card__img1{ 
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    height: 300px; 
+    width: 250px; 
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+ }
+
+.card__name1{
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 6vw;
+    font-weight: 700;
+    margin-bottom: 0.5em;
+    display: flex;
+    position: absolute;
+    top: 43%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+}
+.card__types1{
+    --gap-types: 0.7em;
+    display: flex;
+    justify-content: center;
+    gap: var(--gap-types);
+    position: absolute;
+    top: 50%; 
+    left: 60%; 
+    transform: translate(-50%, -50%); 
+    font-family: Roboto;
+    font-size: 4vw; 
+    font-weight: 100;
+    line-height: 1.2; 
+    text-align: center;
+       
+    }
+
+.card__type1:not(:nth-child(1)::before){
+    content: '/';
+        padding-right: var(--gap-types);
+}
+.card__list1{
+    font-size: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 1.5em;
+    top: 25%;
+
+}
+.card__stat1{
+    display: flex;
+    flex-direction: column;
+    gap: 0.1em;
+    align-items: center;
+    transform: translate(-20%, 1160%);
+    color: #0b030d;
+    
+}
+.card__stat__label1{
+    font-size: 0.7em;
+    text-transform: uppercase;
+
+   
+}
+.card__stat__value1{
+    font-size: 1.2em;
+    font-weight: 300;
+   
+}
+

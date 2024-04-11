@@ -1,0 +1,23 @@
+.img{
+    margin: auto;
+  width: 640px; 
+  padding: 50px;
+  font-family: 'Arial', sans-serif; 
+  color: #33475b;    
+  display: flex;
+}
+.h2{
+    margin: auto;
+    width: 640px; 
+    padding: 60px;
+    font-family: 'Arial', sans-serif; 
+    color: #e3190b;    
+}
+.p{
+    margin: auto;
+    width: 640px; 
+    padding: 15px;
+    font-family: 'Arial', sans-serif; 
+    color: #120606;   
+}
+

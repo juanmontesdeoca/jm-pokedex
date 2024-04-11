@@ -1,0 +1,38 @@
+.header1{
+    width: 1440px;
+height: 123.18px;
+gap: 0px;
+opacity: 0px;
+background: rgba(221, 26, 26, 1);
+}
+.header2{
+    width: 1440px;
+height: 49.7px;
+top: 111.3px;
+gap: 0px;
+opacity: 0px;
+background: rgba(12, 12, 12, 1);
+
+}
+.p{
+    font-size: 30px; 
+    color: #0c0101; 
+}
+.input1{
+    color: rgb(2, 15, 15);
+    border: radius 0.5px solid;  
+    cursor: pointer; 
+    border-radius: 5px; 
+    padding: 10px;
+    margin: 20px;
+}
+.button1{
+    color: rgb(2, 15, 15);
+    border: radius .5px solid;  
+    cursor: pointer; 
+    border-radius: 6px; 
+    padding: 10px ;
+    margin: auto;
+    background-color: #e63e3e;
+    
+}

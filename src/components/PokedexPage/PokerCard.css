@@ -1,0 +1,112 @@
+.card{
+    width: 90%;
+    max-width: 25em;
+    border: 0.5em solid rgb(78, 144, 171);
+    border-radius: 1em;
+    font-size: 1em;
+}
+.card__header{
+    background-color: blueviolet;
+    width: 100% ;
+    aspect-ratio: 2;
+    position: relative;
+    border-radius: 0.4em;
+}
+.card__img{
+    position: absolute;
+    width: 55%;
+    top: 2em;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.card__principal{
+    margin-top: 3.5em;
+}
+.card__name{
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin-bottom: 0.2em;
+}
+.card__types{
+    --gap-types:0.7em;
+    display: flex;
+    justify-content: center;
+    gap: var(--gap-types);
+}
+.card__type:not(:nth-child(1)::before){
+    content: '/';
+    padding-right: var(--gap-types);
+}
+.card__hr{
+    --margin-y:0.7em;
+    margin-top: var(--margin-y);
+    margin-bottom: var(--margin-y);
+    border-top: 1px solid rgb(232, 193, 121);
+    margin-inline: 2em;
+}
+.card__stats{
+    padding: 1 em 1em 2em ;
+}
+.card__list{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 1.5em;
+}
+.card__stat{
+    display: flex;
+    flex-direction: column;
+    gap: 0.3em;
+    align-items: center;
+}
+.card__stat__label{
+    font-size: 0.7em;
+    text-transform: uppercase;
+}
+.card__stat__value{
+    font-size: 1.2em;
+    font-weight: 300;
+}
+.bg-grass{
+    background: linear-gradient(178.92deg, #7EC6C5 0.92%, #ABDAC6 47.96%, #CAE099 99.08%);
+}
+.bg-fire{
+    background: linear-gradient(176.37deg, #F96D6F -32.26%, #E35825 22.55%, #E8AE1B 125.72%);
+}
+.bg-water{
+    background: rgb(16, 37, 175);
+}
+.bg-normal{
+    background: linear-gradient(181.51deg, #735259 -6.44%, #BC6B7C 121.95%, #7C3F4C 186.11%);
+}
+.bg-bug{
+    background: linear-gradient(177.56deg, #62DB60 -58.92%, #3BB039 16.57%, #AAFFA8 209.53%);
+}
+.bg-rock{
+    background: linear-gradient(177.03deg, #7E7E7E -11.97%, #8D8D94 57.49%, #D3D3D3 135.64%);
+}
+.bg-fighting{
+    background: linear-gradient(176.83deg, #96402A -8.78%, #F1613C 169.09%, #CB735D 242.33%);
+}
+.bg-ghost{
+    background: linear-gradient(177.03deg, #323569 -11.97%, #454AA8 57.49%, #787DDA 135.64%);
+}
+.bg-dark{
+    background: linear-gradient(177.03deg, #030706 -11.97%, #0D1211 57.49%, #5A5E5D 135.64%);
+}
+.bg-ice{
+    background: linear-gradient(177.03deg, #6FBEDF -11.97%, #64CBF5 47.77%, #BDEBFE 136.72%);
+}
+.bg-steel{
+    background: linear-gradient(179.75deg, #5E736C -19.96%, #728881 43.67%, #A8A8A8 138.4%);
+}
+.bg-dragon{
+    background: linear-gradient(179.75deg, #478A93 -19.96%, #56A4AE 43.67%, #A2BEC1 138.4%);
+}
+.bg-poison{
+    background: linear-gradient(177.03deg, #5B3184 -11.97%, #A564E3 71.28%, #CE9BFF 135.64%);
+}
+
+
+

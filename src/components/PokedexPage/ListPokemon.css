@@ -1,0 +1,9 @@
+.lp{
+   
+    margin: 20px;
+    margin-right:20px;
+    width: 100%;
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+}
